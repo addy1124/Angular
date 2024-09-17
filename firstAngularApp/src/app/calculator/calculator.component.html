@@ -1,0 +1,36 @@
+<!-- <p>calculator works!</p> -->
+ <div class="container">
+    <div class="row" justify-content-center mt-5>
+        <div class="col-8 border bg-light shadow-sm" style = "border-radius: 5px;">
+            <h1>my Calculator App using DI</h1>
+            <div class="display border"  id="disp">
+
+            </div>
+            <div class="container mb-2">
+                <div class="row text-center">
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick(7)"> <span>7</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick(8)"> <span>8</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center"(click)="getWhatIsClick(9)"> <span>9</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick('+')"> <span>+</span></div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick(4)"> <span>4</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick(5)"> <span>5</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick(6)"> <span>6</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center " (click)="getWhatIsClick('-')"> <span>-</span></div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick(1)"> <span>1</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick(2)"> <span>2</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick(3)"> <span>3</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick('*')"> <span>*</span></div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-3 border  hov d-grid place-item-center"  style="background: red;" (click)="getWhatIsClick('clr')"><span>clr</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick(0)"> <span>0</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick('=')"> <span>=</span></div>
+                    <div class="col-3 border  hov d-grid place-item-center" (click)="getWhatIsClick('/')"> <span>/</span></div>
+                </div>
+        </div>
+    </div>
+ </div>
